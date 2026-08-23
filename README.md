@@ -1,16 +1,29 @@
-# Fábio Rodrigues — Website
+# Fábio Rodrigues — website v2
 
 Versão estática preparada para GitHub Pages.
 
-## Publicar
-1. Faz upload de todo o conteúdo desta pasta para o repositório `fabiodanielr.github.io`.
-2. No GitHub: Settings → Pages → Deploy from a branch → `main` / `/ (root)`.
-3. O site ficará disponível em `https://fabiodanielr.github.io`.
+## Atualizar o site no GitHub
+
+1. Abre o repositório `fabiodanielr.github.io`.
+2. `Add file` → `Upload files`.
+3. Arrasta **todo o conteúdo desta pasta**.
+4. Como os ficheiros já existem, o GitHub vai substituí-los.
+5. Faz `Commit changes`.
+6. O GitHub Pages atualiza automaticamente após alguns minutos.
+
+## Importante: imagens
+
+Esta versão usa temporariamente os URLs públicos das imagens do teu Wix para manter as imagens atuais visíveis.
+Antes de cancelar o Wix, devemos substituir esses URLs por ficheiros locais dentro de `assets/images/`.
 
 ## Formulário
-O GitHub Pages não processa formulários. Cria uma conta gratuita no Formspree e substitui:
-`https://formspree.io/f/REPLACE_ME`
-no ficheiro `index.html` pelo URL que o Formspree te fornecer.
 
-## Imagens
-Neste protótipo as imagens são carregadas diretamente dos URLs públicos atualmente usados pelo site Wix. Antes de cancelar o Wix, é recomendado guardar as imagens numa pasta `assets/images/` no próprio repositório e substituir esses URLs por caminhos locais.
+O formulário ainda não envia mensagens. Em `index.html` existe:
+
+`https://formspree.io/f/REPLACE_ME`
+
+Cria um formulário no Formspree e substitui `REPLACE_ME` pelo ID que te derem.
+
+## Domínio
+
+Não alteres ainda o domínio enquanto as imagens não estiverem alojadas fora do Wix.
