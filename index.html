@@ -1,149 +1,279 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fábio Rodrigues — professional videographer. Music videos, performance, weddings and aerial imagery.">
-  <meta name="theme-color" content="#0b0b0b">
-  <title>Fábio Rodrigues — Videographer</title>
-  <link rel="stylesheet" href="assets/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fábio Rodrigues — Videographer and filmmaker based in Portugal. Music videos, weddings, branded films and aerial imagery." />
+  <meta name="theme-color" content="#070707" />
+  <title>Fábio Rodrigues — Filmmaker</title>
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
+
 <body>
-<header class="site-header">
-  <a class="brand" href="#top"><strong>Fábio Rodrigues</strong><span>Videographer</span></a>
-  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
-  <nav class="nav">
-    <a href="#projects">Projects</a>
-    <a href="#weddings">Weddings</a>
-    <a href="#drone">Drone</a>
-    <a href="#info">Info</a>
-  </nav>
-</header>
+  <div class="noise"></div>
 
-<main id="top">
-  <section class="hero">
-    <div class="hero-media"></div>
-    <div class="hero-shade"></div>
-    <div class="hero-title">
-      <p class="eyebrow">Fábio Rodrigues — Videographer</p>
-      <h1>Fábio<br>Rodrigues</h1>
-      <a href="#projects" class="line-link">Projects <span>↓</span></a>
-    </div>
-  </section>
+  <header class="topbar">
+    <a class="logo" href="#top" aria-label="Fábio Rodrigues home">
+      <span>FÁBIO</span>
+      <span>RODRIGUES</span>
+    </a>
 
-  <section class="section projects" id="projects">
-    <div class="section-head">
-      <p class="eyebrow">Selected work</p>
-      <h2>Projects</h2>
-    </div>
+    <nav class="desktop-nav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
 
-    <div class="project-grid">
-      <article class="project">
-        <a href="projects/marta-pimpao.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_f10aa11c72df41f2b7e78cbe07110acb~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/danceposter_2.jpg" alt="Marta Pimpão video performance">
-        </a>
-        <div class="meta"><h3>Marta Pimpão</h3><p>Video performance</p></div>
-      </article>
+    <button class="menu-btn" aria-expanded="false" aria-controls="mobileNav">
+      <span></span><span></span>
+    </button>
+  </header>
 
-      <article class="project project-offset">
-        <a href="projects/ines-barros.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_8bc9c2d1e45c4d92a6ae3e2da017ebc8~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/Untitled_4_1_3.jpg" alt="Inês Barros music video">
-        </a>
-        <div class="meta"><h3>Inês Barros</h3><p>Music video</p></div>
-      </article>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
 
-      <article class="project">
-        <a href="projects/ariana.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_0be737522e244d41b29b2e10b80c8cb0~mv2.jpg/v1/fill/w_980,h_517,al_c,q_85,enc_avif,quality_auto/ariana2.jpg" alt="Ariana Filipa video performance">
-        </a>
-        <div class="meta"><h3>Ariana Filipa</h3><p>Video performance</p></div>
-      </article>
-
-      <article class="project project-offset">
-        <a href="projects/ibsxjaur.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_e4c9c41f6bd54703b855f71c918c1dad~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/ibsxjaur2.jpg" alt="IBSxJAUR music video">
-        </a>
-        <div class="meta"><h3>IBSxJAUR</h3><p>Music video</p></div>
-      </article>
-
-      <article class="project">
-        <a href="projects/adlib.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_15294e754af449b793bbfe120b7760e0~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/Still%202024-11-05%20190110_5_20_17.jpg" alt="ADLIB music video">
-        </a>
-        <div class="meta"><h3>ADLIB</h3><p>Music video</p></div>
-      </article>
-
-      <article class="project project-offset">
-        <a href="projects/francisco-montenegro.html" class="project-image">
-          <img src="https://static.wixstatic.com/media/f837dd_4a66fb1ef2884fe6b79d0dfaefa20f96~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/Still%202024-09-24%20121033_1_3_7.jpg" alt="Francisco Montenegro music video">
-        </a>
-        <div class="meta"><h3>Francisco Montenegro</h3><p>Single shot music video</p></div>
-      </article>
-    </div>
-  </section>
-
-  <section class="wide-section dark" id="weddings">
-    <div class="wide-image">
-      <img src="https://static.wixstatic.com/media/f837dd_1fdccc7f5cf4486484de527c7f06bdea~mv2.jpg/v1/fill/w_980,h_551,al_c,q_85,enc_avif,quality_auto/1_4_2_1.jpg" alt="Wedding film">
-    </div>
-    <div class="wide-copy">
-      <p class="eyebrow">Weddings</p>
-      <h2>Wedding videos</h2>
-      <p>Natural, cinematic films built around real moments, people and atmosphere.</p>
-      <a href="#contact" class="line-link">Request a quote <span>→</span></a>
-    </div>
-  </section>
-
-  <section class="quote-section" id="contact">
-    <div class="quote-title">
-      <p class="eyebrow">New project</p>
-      <h2>Faz aqui o pedido de orçamento do teu próximo vídeo com Fábio Rodrigues</h2>
-    </div>
-    <form action="https://formspree.io/f/REPLACE_ME" method="POST">
-      <div class="two-cols">
-        <label>Primeiro nome*<input name="first_name" required></label>
-        <label>Último nome*<input name="last_name" required></label>
+  <main id="top">
+    <!-- HERO VIDEO -->
+    <section class="hero">
+      <div class="hero-video">
+        <iframe
+          src="https://player.vimeo.com/video/787224671?background=1&autoplay=1&muted=1&loop=1&byline=0&title=0&portrait=0"
+          title="Featured film by Fábio Rodrigues"
+          allow="autoplay; fullscreen; picture-in-picture"
+          loading="eager">
+        </iframe>
       </div>
-      <label>Email*<input name="email" type="email" required></label>
-      <label>Tipo de serviço*
-        <select name="service" required>
-          <option value="">Escolha uma opção</option>
-          <option>Videoclipe</option>
-          <option>Casamento</option>
-          <option>Drone</option>
-          <option>Fotografia</option>
-          <option>Outro</option>
-        </select>
-      </label>
-      <label>Mensagem*<textarea name="message" rows="6" required></textarea></label>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
 
-  <section class="wide-section light" id="drone">
-    <div class="wide-copy">
-      <p class="eyebrow">Drone</p>
-      <h2>Aerial photography and videography</h2>
-      <p>Aerial imagery for tourism, real estate, events and creative productions.</p>
-      <a href="#contact" class="line-link">Get in touch <span>→</span></a>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-copy">
+        <p class="kicker">Filmmaker · Videographer · Portugal</p>
+        <h1>Stories<br><em>in motion.</em></h1>
+
+        <div class="hero-bottom">
+          <p>Music videos, performance, weddings, branded films and aerial imagery.</p>
+          <a href="#work" class="round-link" aria-label="View selected work">↓</a>
+        </div>
+      </div>
+
+      <div class="scroll-label">Selected work</div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro-section">
+      <p class="section-index">01 / Selected work</p>
+      <div class="intro-text">
+        <p>
+          I create cinematic films with a strong focus on atmosphere,
+          movement and real moments.
+        </p>
+      </div>
+    </section>
+
+    <!-- FEATURED WORK -->
+    <section class="work" id="work">
+
+      <article class="film film-full" data-video="vimeo:679709095">
+        <button class="film-media" aria-label="Play Marta Pimpão">
+          <img
+            src="https://static.wixstatic.com/media/f837dd_f10aa11c72df41f2b7e78cbe07110acb~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/danceposter_2.jpg"
+            alt="Marta Pimpão video performance"
+            loading="lazy">
+          <span class="play">PLAY</span>
+          <span class="number">01</span>
+        </button>
+        <div class="film-meta">
+          <div>
+            <h2>Marta Pimpão</h2>
+            <p>Video performance · Aveiro</p>
+          </div>
+          <span>2021</span>
+        </div>
+      </article>
+
+      <article class="film film-full" data-video="youtube:IGG30ogbrkc">
+        <button class="film-media" aria-label="Play Inês Barros">
+          <img
+            src="https://static.wixstatic.com/media/f837dd_8bc9c2d1e45c4d92a6ae3e2da017ebc8~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/Untitled_4_1_3.jpg"
+            alt="Inês Barros music video"
+            loading="lazy">
+          <span class="play">PLAY</span>
+          <span class="number">02</span>
+        </button>
+        <div class="film-meta">
+          <div>
+            <h2>Inês Barros</h2>
+            <p>Music video · Águeda</p>
+          </div>
+          <span>2023</span>
+        </div>
+      </article>
+
+      <div class="work-grid">
+        <article class="film" data-video="youtube:QULyoMbOTDA">
+          <button class="film-media" aria-label="Play Ariana Filipa">
+            <img
+              src="https://static.wixstatic.com/media/f837dd_0be737522e244d41b29b2e10b80c8cb0~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_90,enc_avif,quality_auto/ariana2.jpg"
+              alt="Ariana Filipa video performance"
+              loading="lazy">
+            <span class="play">PLAY</span>
+            <span class="number">03</span>
+          </button>
+          <div class="film-meta">
+            <div>
+              <h2>Ariana Filipa</h2>
+              <p>Video performance · Algarve</p>
+            </div>
+            <span>2022</span>
+          </div>
+        </article>
+
+        <article class="film film-lower" data-video="vimeo:787224671">
+          <button class="film-media" aria-label="Play IBSxJAUR">
+            <img
+              src="https://static.wixstatic.com/media/f837dd_e4c9c41f6bd54703b855f71c918c1dad~mv2.jpg/v1/fill/w_1400,h_1000,al_c,q_90,enc_avif,quality_auto/ibsxjaur2.jpg"
+              alt="IBSxJAUR music video"
+              loading="lazy">
+            <span class="play">PLAY</span>
+            <span class="number">04</span>
+          </button>
+          <div class="film-meta">
+            <div>
+              <h2>IBSxJAUR</h2>
+              <p>Music video · Tarouca</p>
+            </div>
+            <span>2022</span>
+          </div>
+        </article>
+      </div>
+
+      <article class="film film-full" data-video="youtube:bMhM-0uWbu4">
+        <button class="film-media" aria-label="Play ADLIB">
+          <img
+            src="https://static.wixstatic.com/media/f837dd_15294e754af449b793bbfe120b7760e0~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/Still%202024-11-05%20190110_5_20_17.jpg"
+            alt="ADLIB music video"
+            loading="lazy">
+          <span class="play">PLAY</span>
+          <span class="number">05</span>
+        </button>
+        <div class="film-meta">
+          <div>
+            <h2>ADLIB</h2>
+            <p>Music video · Porto</p>
+          </div>
+          <span>2024</span>
+        </div>
+      </article>
+
+      <article class="film film-full no-video">
+        <div class="film-media">
+          <img
+            src="https://static.wixstatic.com/media/f837dd_4a66fb1ef2884fe6b79d0dfaefa20f96~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/Still%202024-09-24%20121033_1_3_7.jpg"
+            alt="Francisco Montenegro live single-shot music video"
+            loading="lazy">
+          <span class="number">06</span>
+        </div>
+        <div class="film-meta">
+          <div>
+            <h2>Francisco Montenegro</h2>
+            <p>Live single-shot music video · Portugal</p>
+          </div>
+          <span>2024</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- WEDDINGS FEATURE -->
+    <section class="service-feature">
+      <div class="service-media">
+        <img
+          src="https://static.wixstatic.com/media/f837dd_1fdccc7f5cf4486484de527c7f06bdea~mv2.jpg/v1/fill/w_1920,h_1080,al_c,q_90,enc_avif,quality_auto/1_4_2_1.jpg"
+          alt="Wedding film by Fábio Rodrigues"
+          loading="lazy">
+      </div>
+      <div class="service-overlay"></div>
+      <div class="service-copy">
+        <p class="kicker">Wedding films</p>
+        <h2>Real moments.<br>Made cinematic.</h2>
+        <a href="#contact" class="outline-btn">Wedding enquiries ↗</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-label">
+        <p class="section-index">02 / About</p>
+      </div>
+
+      <div class="about-main">
+        <h2>Film first.<br><em>Everything else second.</em></h2>
+      </div>
+
+      <div class="about-copy">
+        <p>
+          Fábio Rodrigues is a Portuguese videographer and filmmaker working across
+          music, live performance, weddings, branded content and aerial imagery.
+        </p>
+        <p>
+          The approach is simple: strong images, natural movement and films that
+          feel intentional without feeling staged.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-top">
+        <p class="section-index">03 / Contact</p>
+        <p>Available for projects in Portugal and abroad.</p>
+      </div>
+
+      <a class="big-mail" href="mailto:fabiodrphotography@gmail.com">
+        <span>Have a project?</span>
+        <strong>Let's talk.</strong>
+      </a>
+
+      <div class="contact-bottom">
+        <div>
+          <p class="small-label">Email</p>
+          <a href="mailto:fabiodrphotography@gmail.com">fabiodrphotography@gmail.com</a>
+        </div>
+        <div>
+          <p class="small-label">Location</p>
+          <p>Portugal</p>
+        </div>
+        <div>
+          <p class="small-label">Instagram</p>
+          <a href="https://www.instagram.com/fabiodr.film/" target="_blank" rel="noopener">@fabiodr.film ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Fábio Rodrigues</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="video-modal" aria-hidden="true">
+    <button class="modal-close" aria-label="Close video">Close ×</button>
+    <div class="video-frame-wrap">
+      <iframe
+        id="videoFrame"
+        src=""
+        title="Project video"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+      </iframe>
     </div>
-    <div class="drone-image"></div>
-  </section>
+  </div>
 
-  <section class="info" id="info">
-    <div><p class="eyebrow">Info</p><h2>Fábio Rodrigues</h2><p class="role">Videographer</p></div>
-    <div class="contact-details">
-      <a href="mailto:fabiodrphotography@gmail.com">fabiodrphotography@gmail.com</a>
-      <p>Tarouca, Viseu<br>Portugal</p>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <p>© <span id="year"></span> Fábio Rodrigues</p>
-  <a href="#top">Back to top ↑</a>
-</footer>
-
-<script src="assets/script.js"></script>
+  <script src="assets/script.js"></script>
 </body>
 </html>

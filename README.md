@@ -1,29 +1,71 @@
-# Fábio Rodrigues — website v2
+# Fábio Rodrigues — Modern Portfolio
 
-Versão estática preparada para GitHub Pages.
+Website estático preparado para GitHub Pages.
 
-## Atualizar o site no GitHub
+## Como substituir o site atual
 
-1. Abre o repositório `fabiodanielr.github.io`.
-2. `Add file` → `Upload files`.
-3. Arrasta **todo o conteúdo desta pasta**.
-4. Como os ficheiros já existem, o GitHub vai substituí-los.
+1. Extrai o ZIP.
+2. Abre o repositório `fabiodanielr.github.io`.
+3. `Add file` → `Upload files`.
+4. Arrasta **index.html** e a pasta **assets**.
 5. Faz `Commit changes`.
-6. O GitHub Pages atualiza automaticamente após alguns minutos.
+6. O GitHub Pages atualiza automaticamente.
 
-## Importante: imagens
+## Design
 
-Esta versão usa temporariamente os URLs públicos das imagens do teu Wix para manter as imagens atuais visíveis.
-Antes de cancelar o Wix, devemos substituir esses URLs por ficheiros locais dentro de `assets/images/`.
+Esta versão é deliberadamente muito mais cinematográfica:
+- hero em vídeo fullscreen
+- fundo escuro
+- vídeos apresentados em grande
+- thumbnails ocupam quase toda a largura
+- player abre em fullscreen/modal
+- layout editorial em desktop
+- versão mobile simplificada
+- secção de casamento
+- about e contacto minimalistas
 
-## Formulário
+## Vídeo principal
 
-O formulário ainda não envia mensagens. Em `index.html` existe:
+O hero utiliza temporariamente este Vimeo:
 
-`https://formspree.io/f/REPLACE_ME`
+`787224671`
 
-Cria um formulário no Formspree e substitui `REPLACE_ME` pelo ID que te derem.
+No `index.html`, procura:
+
+`player.vimeo.com/video/787224671`
+
+e substitui pelo ID do vídeo/reel que quiseres usar como showreel principal.
+
+Para melhor resultado, usa um vídeo de 30–60 segundos, sem som, com cortes rápidos e os teus melhores planos.
+
+## Projetos
+
+Cada projeto tem:
+
+`data-video="vimeo:ID"`
+
+ou
+
+`data-video="youtube:ID"`
+
+Exemplos:
+
+`data-video="vimeo:679709095"`
+
+`data-video="youtube:IGG30ogbrkc"`
+
+Assim, basta trocar o ID para alterar o vídeo.
+
+## Imagens
+
+As thumbnails desta primeira versão ainda usam os endereços do teu Wix.
+
+Antes de cancelares o Wix, o ideal é:
+1. exportar/descarregar os originais;
+2. colocá-los em `assets/images/`;
+3. alterar os `src` no `index.html`.
 
 ## Domínio
 
-Não alteres ainda o domínio enquanto as imagens não estiverem alojadas fora do Wix.
+Não é necessário mudar o domínio enquanto estás a testar.
+Quando o site estiver finalizado, podes apontar `www.fabio-rodrigues.com` para o GitHub Pages.
