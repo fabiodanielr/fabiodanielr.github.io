@@ -1,0 +1,2 @@
+import{t as e}from"./rolldown-runtime.Dh6celcD.mjs";function t(e,t){return{description:`Filmes, conteúdo e narrativas visuais para marcas, pessoas e cultura.`,robots:`max-image-preview:large`,title:`Fabio Rodrigues — Direção & Produção Audiovisual`}}var n=e((()=>{}));export{t as n,n as t};
+//# sourceMappingURL=shared-lib.D9T77Rfh.mjs.map
