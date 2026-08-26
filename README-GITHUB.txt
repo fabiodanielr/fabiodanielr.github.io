@@ -1,33 +1,29 @@
-# Fábio Rodrigues — Framer export prepared for GitHub Pages
+FÁBIO RODRIGUES — FRAMER EXPORT FOR GITHUB PAGES
+================================================
 
-This package was adapted from the Framer export so the homepage can live
-directly at:
+Source Framer host:
+soft-behavior-381500.framer.app
 
+Prepared for:
 https://fabiodanielr.github.io/
 
-## Upload
+UPLOAD WITH GITHUB DESKTOP
+--------------------------
+1. Open GitHub Desktop.
+2. Select fabiodanielr/fabiodanielr.github.io.
+3. Repository > Show in Explorer.
+4. Keep the hidden .git folder.
+5. Remove the old website files/folders from the repository folder.
+6. Copy ALL contents of this package into the repository folder.
+7. Return to GitHub Desktop.
+8. Summary: Update website from Framer
+9. Commit to main.
+10. Push origin.
+11. Wait a couple of minutes for GitHub Pages to redeploy.
 
-Upload ALL files and folders inside this package to the root of the
-`fabiodanielr.github.io` repository.
-
-Expected root:
-
-- index.html
-- .nojekyll
-- framerusercontent.com/
-- events.framer.com/
-- framer.com/
-
-Do not place them inside another folder.
-
-GitHub Pages is already enabled, so after committing the files the site
-should redeploy automatically.
-
-## Custom domain
-
-The canonical URL is currently set to:
-
-https://fabiodanielr.github.io/
-
-When `www.fabio-rodrigues.com` is connected, change the canonical and
-`og:url` values in index.html to the custom domain.
+IMPORTANT
+---------
+The .framer.app wrapper folder has already been removed.
+index.html is at the repository root.
+Relative Framer asset paths were adjusted for GitHub Pages.
+A .nojekyll file was added.
